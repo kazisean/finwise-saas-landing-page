@@ -20,7 +20,7 @@ const HomePage: React.FC = () => {
         <Section
           id="pricing"
           title="Pricing"
-          description="Simple, transparent pricing. No surprises."
+          description="Simple, transparent pricing. Only surprises."
         >
           <Pricing />
         </Section>
