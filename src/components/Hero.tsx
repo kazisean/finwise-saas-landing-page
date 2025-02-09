@@ -3,6 +3,7 @@ import Image from 'next/image';
 
 import AppStoreButton from './AppStoreButton';
 import PlayStoreButton from './PlayStoreButton';
+import WebApp from './WebApp';
 
 import { heroDetails } from '@/data/hero';
 
@@ -26,6 +27,7 @@ const Hero: React.FC = () => {
                 <div className="mt-6 flex flex-col sm:flex-row items-center sm:gap-4 w-fit mx-auto">
                     <AppStoreButton dark />
                     <PlayStoreButton dark />
+                    <WebApp dark />
                 </div>
                 <Image
                     src={heroDetails.centerImageSrc}
